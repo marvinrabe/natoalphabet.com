@@ -200,7 +200,7 @@ export default function Home() {
           </details>
         ))}
       </section>
-      <p className="text-xs pt-8 text-gray-400 dark:text-gray-600">
+      <p className="text-xs text-gray-400 dark:text-gray-600">
         Compass Rose by NAPISAH from <a href="https://thenounproject.com/browse/icons/term/compass-rose/" target="_blank" title="Compass Rose Icons">Noun Project</a> (CC BY 3.0)
       </p>
       <script
