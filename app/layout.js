@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,6 +19,7 @@ export default function RootLayout ({ children }) {
       <link rel="manifest" href="/site.webmanifest" />
     </head>
     <body className={inter.className + ' bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-50'}>{children}</body>
+    <GoogleAnalytics gaId="G-YH9Z22M5H3" />
     </html>
   )
 }
