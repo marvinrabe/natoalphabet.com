@@ -91,12 +91,12 @@ export default function Home () {
         <span className="font-bold">NATO</span> Alphabet
       </h1>
       <div
-        className="bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-800 shadow-lg rounded-md py-2 px-4">
+        className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-lg rounded-md py-2 px-4">
         <table className="w-full text-left">
           <caption className="sr-only">
             NATO Phonetic Alphabet
           </caption>
-          <thead className="border-b-2 border-gray-300 dark:border-gray-800">
+          <thead className="border-b-2 border-gray-300 dark:border-gray-700">
             <tr>
               <th className="font-normal text-gray-600 dark:text-gray-300">&nbsp;</th>
               <th className="font-normal text-gray-600 dark:text-gray-300">Symbol</th>
@@ -104,7 +104,7 @@ export default function Home () {
               <th className="font-normal text-gray-600 dark:text-gray-300">Morse Code</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-300 dark:divide-gray-800">
+          <tbody className="divide-y divide-gray-300 dark:divide-gray-700">
             {natoAlphabet.map(item => <tr key={item.symbol}>
               <td>
                 <PlayCodeWord

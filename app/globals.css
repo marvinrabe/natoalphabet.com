@@ -6,6 +6,19 @@ th, td {
   @apply p-2;
 }
 
+body {
+  background-image: url("/images/background.png");
+  background-size: 1024px;
+  background-repeat: no-repeat;
+  background-position: center -64px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url("/images/background_dark.png");
+  }
+}
+
 details > summary::-webkit-details-marker {
   display: none;
 }
