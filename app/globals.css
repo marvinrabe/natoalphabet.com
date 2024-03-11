@@ -5,3 +5,7 @@
 th, td {
   @apply p-2;
 }
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
