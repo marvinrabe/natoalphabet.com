@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import PlayMorseCode from '@/components/PlayMorseCode'
+import PlayCodeWord from '@/components/PlayCodeWord'
 
 export default function Home () {
   const faq = [
@@ -106,7 +107,9 @@ export default function Home () {
           <tbody className="divide-y divide-gray-300 dark:divide-gray-800">
             {natoAlphabet.map(item => <tr key={item.symbol}>
               <td>
-
+                <PlayCodeWord
+                  symbol={item.symbol}
+                />
               </td>
               <td>{item.symbol}</td>
               <td>{item.codeWord}</td>
