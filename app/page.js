@@ -99,7 +99,7 @@ export default function Home () {
           <thead className="border-b-2 border-gray-300 dark:border-gray-700">
             <tr>
               <th className="font-normal text-gray-600 dark:text-gray-300">&nbsp;</th>
-              <th className="font-normal text-gray-600 dark:text-gray-300">Symbol</th>
+              <th className="font-normal text-gray-600 dark:text-gray-300">Letter</th>
               <th className="font-normal text-gray-600 dark:text-gray-300">Code Word</th>
               <th className="font-normal text-gray-600 dark:text-gray-300">Morse Code</th>
             </tr>
